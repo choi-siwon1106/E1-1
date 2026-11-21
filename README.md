@@ -63,7 +63,7 @@ PS> wsl -l -v
 - [x] 바인드 마운트 반영 확인
 - [x] 볼륨 영속성 확인
 - [x] Git 사용자 정보 / 기본 브랜치 설정
-- [ ] VS Code GitHub 로그인 + 저장소 연동 (스크린샷 필요)
+- [x] VS Code GitHub 로그인 + 저장소 연동
 - [x] 브라우저 접속 스크린샷 (주소창 포함)
 
 ## 4. 수행 로그
@@ -495,7 +495,14 @@ init.defaultbranch=main
 
 (이메일은 마스킹했다.)
 
-- VS Code GitHub 로그인 및 저장소 연동 스크린샷: `docs/images/vscode-github.png` (추가 예정)
+VS Code GitHub 로그인 및 저장소 연동
+
+| GitHub 로그인 (계정 메뉴) | 저장소 연동 (소스 제어) |
+|---|---|
+| ![VS Code GitHub 로그인](docs/images/vscode-github-login.png) | ![VS Code 소스 제어](docs/images/vscode-git-repo.png) |
+
+- 왼쪽 계정 메뉴에 `choi-siwon1106 (GitHub)`로 로그인된 것이 보인다.
+- 소스 제어 화면에서 `main` 브랜치와 커밋 목록이 보이고, 구름 아이콘으로 원격 저장소(origin)와 연결되어 있다.
 
 **Git과 GitHub의 차이**
 - Git은 내 컴퓨터에서 파일의 변경 이력을 관리하는 버전 관리 도구이다. 인터넷 없이도 쓸 수 있다.
